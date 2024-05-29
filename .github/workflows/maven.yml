@@ -22,3 +22,8 @@ jobs:
 
     - name: Run tests
       run: npm test
+notifications:
+  slack:
+    secure: your_slack_bot_token_here
+  telegram:
+    secure: your_telegram_bot_token_here
